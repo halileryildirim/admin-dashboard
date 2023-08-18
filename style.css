@@ -43,12 +43,53 @@ ul, li{
 }
 
 #icons{
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     color: white;
 }
 
 .projects{
     display: grid;
     grid-row: span 2;
+}
+
+
+#notification {
+    background-image: url(/icons/bell-outline.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+#fav {
+    background-image: url(/icons/heart-outline.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+#track {
+    background-image: url(/icons/eye-plus-outline.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+}
+
+#fork {
+    background-image: url(icons/source-fork.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
 }

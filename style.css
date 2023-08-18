@@ -22,7 +22,7 @@ body, html {
 
 .header{
     padding: 20px;
-    background-color: black;
+    background-color: gray;
 }
 
 .main-content{
@@ -39,7 +39,7 @@ ul, li{
     list-style: none;
 }
 
-#nav-icons{
+#icons{
     width: 24px;
     height: 24px;
     color: white;

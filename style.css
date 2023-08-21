@@ -28,9 +28,9 @@ body, html {
 .main-content{
     padding: 20px;
     background-color: purple;
-
     display: grid;
     grid-template-columns: 5fr 1fr;
+    gap: 20px;
 }
 
 a, a:visited{
@@ -51,8 +51,10 @@ ul, li{
 .projects{
     display: grid;
     grid-row: span 2;
+    gap: 20px;
+    grid-template-columns: repeat(2, 33%);
+    grid-template-rows: 100px repeat(3, 200px);
 }
-
 
 #notification {
     background-image: url(/icons/bell-outline.svg);
@@ -92,4 +94,19 @@ ul, li{
     height: 36px;
     border: none;
     background-color: transparent;
+}
+
+.card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    grid-row: 2;
+    height: 500px;
+}
+
+.project-title {
+    display: grid;
+    grid-column: span 8;
+    text-align: start;
+    font-size: 36px;
 }

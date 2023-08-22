@@ -6,6 +6,7 @@ body, html {
     width: 100vw;
     font-size: 24px;
     color: white;
+    overflow-x: hidden;
 }
 
 .container {
@@ -40,7 +41,7 @@ a, a:visited{
 
 ul, li{
     list-style: none;
-}            <!--
+}            
 
 #icons{
     width: 36px;
@@ -51,11 +52,9 @@ ul, li{
 .projects{
     display: grid;
     grid-row: span 2;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-template-rows: 100px repeat(auto-fit, minmax(500px, 750px));
-
-    background-color: beige;
+    gap: 64px;
+    grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
+    grid-template-rows: 100px repeat(auto-fit, minmax(200px, 400px));
 }
 
 #notification {
@@ -102,9 +101,22 @@ ul, li{
     background-color: #FFFFFF;
     color: black;
     text-align: center;
-    height: 500px;
+    padding: 24px;
+    border-radius: 10px;
+}
 
+.card-title, .card > p {
+    text-align: start;
+    padding-left: 24px;
+}
+
+.card-buttons {
     display: grid;
+    grid-template-columns: repeat(3, 24px);
+    justify-content: end;
+    gap: 36px;
+    margin-right: 24px;
+    margin-top: 144px;
 }
 
 .announcements {
@@ -119,4 +131,5 @@ ul, li{
 .project-title{
     display: grid;
     grid-column: 1 / -1;
+    background-color: purple;
 }

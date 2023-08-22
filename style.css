@@ -30,7 +30,7 @@ body, html {
     background-color: purple;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    gap: 20px;
+    gap: 30px;
 }
 
 a, a:visited{
@@ -40,7 +40,7 @@ a, a:visited{
 
 ul, li{
     list-style: none;
-}
+}            <!--
 
 #icons{
     width: 36px;
@@ -50,9 +50,12 @@ ul, li{
 
 .projects{
     display: grid;
-    grid-row: span 5;
+    grid-row: span 2;
     gap: 20px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: 100px repeat(auto-fit, minmax(500px, 750px));
+
+    background-color: beige;
 }
 
 #notification {
@@ -99,8 +102,9 @@ ul, li{
     background-color: #FFFFFF;
     color: black;
     text-align: center;
-    grid-row: 2;
     height: 500px;
+
+    display: grid;
 }
 
 .announcements {
@@ -109,9 +113,10 @@ ul, li{
 
 .trends {
     display: grid;
+    grid-column: 1 -1;
 }
 
-.title-row {
+.project-title{
     display: grid;
-    grid-column: span 2;
+    grid-column: 1 / -1;
 }

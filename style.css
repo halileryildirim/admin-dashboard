@@ -28,13 +28,15 @@ body, html {
     grid-template-columns: 50px 50px;
     grid-template-rows: 100px;
     align-items: center;
-    column-gap: 24px;
+    column-gap: 30px;
     margin-left: 24px;
 }
 
 .sidebar-nav {
     display: grid;
     grid-template-rows: 1fr 2fr;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .main-nav, .secondary-nav {
@@ -45,13 +47,23 @@ body, html {
 
 li a, li img{
     vertical-align: middle;
-    line-height: 60px;
 }
 
 .header{
     padding: 20px;
     background-color: rgb(255,255,255);
     color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
+}
+
+.upper-header {
+    grid-column: 1/-1;
+}
+
+input {
+    border-radius: 25px;
 }
 
 .main-content{

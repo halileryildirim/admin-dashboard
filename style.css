@@ -160,7 +160,7 @@ input {
     grid-template-columns: 5fr 1fr;
     gap: 30px;
 
-    box-shadow: inset rgb(17, 59, 45) 20px 20px 20px 0;
+    box-shadow: inset rgb(17, 59, 45) 0px 20px 20px 0;
 }
 
 a, a:visited{
@@ -235,6 +235,12 @@ ul, li{
     text-align: center;
     padding: 24px;
     border-radius: 10px;
+    font-size: 24px;
+    box-shadow: inset rgb(17, 59, 45) 20px 20px 0 0;
+}
+
+.card-title, .project-title, .announce-title, .trend-title {
+    font-weight: bold;
     font-size: 24px;
 }
 

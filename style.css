@@ -8,7 +8,7 @@ body, html {
     width: 100vw;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
     overflow-x: hidden;
 }
 
@@ -32,6 +32,7 @@ body, html {
     column-gap: 30px;
     margin-left: 24px;
     font-size: 36px;
+    color: white;
 }
 
 .sidebar-nav {
@@ -58,7 +59,7 @@ li a, li img{
     font-weight: 600;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 150px 0.5fr;
+    grid-template-rows: 150pxf 0.5fr;
     row-gap: 75px;
     box-shadow: inset rgb(167 158 142) 20px 0px 20px 0;
 }
@@ -147,7 +148,7 @@ input {
     width: 175px;
     height: 60px;
     border-radius: 3em / 5em;
-    background-color: rgb(26,92,70);
+    background-color: rgb(45,146,143);
     font-size: 24px;
     color: white;
     font-weight: 600;
@@ -155,12 +156,11 @@ input {
 
 .main-content{
     padding: 20px;
-    background-color: rgb(26,92,70);
+    background-color: white;
     display: grid;
     grid-template-columns: 5fr 1fr;
     gap: 30px;
-
-    box-shadow: inset rgb(17, 59, 45) 0px 20px 20px 0;
+    box-shadow: inset rgb(210, 212, 212) 20px 20px 20px 0;
 }
 
 a, a:visited{
@@ -185,7 +185,7 @@ ul, li{
     display: grid;
     grid-row: span 2;
     gap: 64px;
-    grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     grid-template-rows: 100px repeat(auto-fit, minmax(200px, 350px));
 }
 
@@ -230,13 +230,13 @@ ul, li{
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: rgb(230, 230, 230);
     color: black;
     text-align: center;
     padding: 24px;
     border-radius: 10px;
     font-size: 24px;
-    box-shadow: inset rgb(17, 59, 45) 20px 20px 0 0;
+    border-left: 20px solid rgb(17, 59, 45);
 }
 
 .card-title, .project-title, .announce-title, .trend-title {
@@ -265,7 +265,7 @@ ul, li{
 
 .announce-body {
     border-radius: 25px;
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     color: black;
     padding: 20px;
     margin-top: 45px;
@@ -293,7 +293,7 @@ ul, li{
 
 .trends-body {
     border-radius: 25px;
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     color: black;
     padding: 20px;
     font-size: 20px;

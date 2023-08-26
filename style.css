@@ -9,7 +9,6 @@ body, html {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: black;
-    overflow-x: hidden;
 }
 
 .container {
@@ -30,7 +29,7 @@ body, html {
     grid-template-rows: 100px;
     align-items: center;
     column-gap: 30px;
-    margin-left: 24px;
+    margin-left: 12px;
     font-size: 36px;
     color: white;
 }
@@ -62,6 +61,7 @@ li a, li img{
     grid-template-rows: 150pxf 0.5fr;
     row-gap: 75px;
     box-shadow: inset rgb(167 158 142) 20px 0px 20px 0;
+    margin-right: 0;
 }
 
 .upper-header {
@@ -161,6 +161,7 @@ input {
     grid-template-columns: 5fr 1fr;
     gap: 30px;
     box-shadow: inset rgb(210, 212, 212) 20px 20px 20px 0;
+    margin-right: 0;
 }
 
 a, a:visited{
@@ -261,6 +262,7 @@ ul, li{
 .announcements {
     display: grid;
     font-size: 24px;
+    margin-right: 0;
 }
 
 .announce-body {
@@ -289,6 +291,7 @@ ul, li{
     display: grid;
     grid-column: 1 -1;
     font-size: 24px;
+    margin-right: 0;
 }
 
 .trends-body {

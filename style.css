@@ -21,7 +21,6 @@ body, html {
     padding: 20px;
     display: grid;
     grid-row: span 2;
-    grid-template-rows: 0.75fr 6fr 5.5fr;
     background-color: rgb(89,198,201);
 }
 
@@ -116,7 +115,7 @@ input {
     align-items: center;
     grid-column: 1/-1;
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .greetings {
@@ -273,10 +272,16 @@ ul, li{
 
 .announces {
     border-bottom: black 1px solid;
+    font-size: 20px;
+}
+
+.announces-last {
+    font-size: 20px;
 }
 
 .announce-header{
     font-weight: bold;
+    font-size: 24px;
 }
 
 .trends {
@@ -285,7 +290,25 @@ ul, li{
     font-size: 24px;
 }
 
+.trends-body {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
 .project-title{
     display: grid;
     grid-column: 1 / -1;
 }
+

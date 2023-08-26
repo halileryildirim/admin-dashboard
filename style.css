@@ -260,11 +260,31 @@ ul, li{
 
 .announcements {
     display: grid;
+    font-size: 24px;
+}
+
+.announce-body {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 45px;
+}
+
+.announces {
+    border-bottom: black 1px solid;
+}
+
+.announces 
+
+.announce-header{
+    font-weight: bold;
 }
 
 .trends {
     display: grid;
     grid-column: 1 -1;
+    font-size: 24px;
 }
 
 .project-title{
